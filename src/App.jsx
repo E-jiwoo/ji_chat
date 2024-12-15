@@ -33,7 +33,9 @@ function App() {
           </S.SideBar_Content>
         </S.SideBar>
         <S.Chat>
-          <S.Chat_Circle></S.Chat_Circle>
+          <S.Chat_Circle>
+            <S.Chat_Image src={send} alt="send" />
+          </S.Chat_Circle>
         </S.Chat>
       </S.Layout>
     </>

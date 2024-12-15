@@ -39,7 +39,7 @@ export const SideBar_Title = styled.p`
   font-weight: 600;
 `;
 
-export const SideBar_NewChat = styled.div`
+export const SideBar_NewChat = styled.button`
   position: relative;
   display: flex;
   align-items: center;
@@ -73,7 +73,7 @@ export const SideBar_Line2 = styled.div`
   background-color: #efefef;
 `;
 
-export const SideBar_Setting = styled.div`
+export const SideBar_Setting = styled.button`
   position: relative;
   display: flex;
   align-items: center;
@@ -102,7 +102,7 @@ export const SideBar_Image = styled.img`
   height: 20px;
 `;
 
-export const SideBar_Profile = styled.div`
+export const SideBar_Profile = styled.button`
   position: relative;
   display: flex;
   align-items: center;
@@ -121,8 +121,12 @@ export const SideBar_Setting_Text = styled.p`
   font-weight: 500;
 `;
 
+// Chat 영역
 export const Chat = styled.div`
   position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
   left: 40%;
   top: 40%;
   width: 747px;
@@ -130,4 +134,22 @@ export const Chat = styled.div`
   background-color: white;
   border-radius: 69px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+`;
+
+export const Chat_Circle = styled.button`
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 2%;
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  background-color: #5661f6;
+  box-shadow: 0px 2px 4px rgba(86, 97, 246, 0.5);
+`;
+
+export const Chat_Image = styled.img`
+  width: 20px;
+  height: 20px;
 `;
